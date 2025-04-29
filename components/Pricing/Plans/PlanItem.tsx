@@ -20,7 +20,7 @@ const PlanItem = ({
   price: number | undefined;
 }) => {
   return (
-    <div className="relative flex max-w-80 flex-col justify-center rounded-lg border-[3px] border-blue-200 px-5 py-5 transition duration-300 hover:border-blue-500 sm:w-96">
+    <div className="relative flex max-w-80 flex-col justify-center rounded-lg border-[3px] border-blue-500 px-5 py-5 transition duration-300 hover:border-blue-500 sm:w-96 lg:border-blue-200">
       <div className="mx-auto flex w-3/5 justify-center">{children}</div>
       <div className="mt-3 flex w-full justify-center">
         <h4 className="text-2xl font-semibold">{title}</h4>
@@ -31,7 +31,9 @@ const PlanItem = ({
         className="mx-auto my-3 w-10/12 lg:hidden"
       >
         <AccordionItem value={title} className="max-w-full">
-          <AccordionTrigger className="font-semibold flex justify-center gap-25">Values</AccordionTrigger>
+          <AccordionTrigger className="flex justify-center gap-25 font-semibold">
+            Values
+          </AccordionTrigger>
           <AccordionContent className="mx-auto w-fit">
             {options.map((option) => {
               return (

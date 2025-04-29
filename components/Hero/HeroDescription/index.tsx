@@ -11,13 +11,14 @@ const HeroDescription = () => {
         </span>
       </h2>
       <p className="text-center 2xl:text-lg">
-        Provides network for all your needs to have access to unlimited free
+        Provides network for all your needs to have access to unlimited
         secure internet using{" "}
         <span className="font-semibold">
           Safe
           <span className="font-bold text-blue-500">VPN</span>.
         </span>
       </p>
+      
       <Button className="mx-auto cursor-pointer px-10 py-8 text-2xl shadow-xl shadow-blue-500">
         Get Started
       </Button>

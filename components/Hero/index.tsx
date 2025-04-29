@@ -5,7 +5,10 @@ import HeroImage from "./HeroImage";
 
 const Hero = () => {
   return (
-    <div className="container mx-auto flex flex-col p-5 lg:p-10 lg:flex-row lg:items-center">
+    <div
+      id="about"
+      className="container mx-auto mt-24 flex flex-col p-5 lg:flex-row lg:items-center lg:p-10"
+    >
       <HeroImage />
       <HeroDescription />
     </div>

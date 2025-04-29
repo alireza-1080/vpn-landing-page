@@ -17,7 +17,7 @@ import { Button } from "@/components/ui/button";
 const MobileNav = () => {
   return (
     <Sheet>
-      <SheetTrigger className="lg:hidden">
+      <SheetTrigger className="lg:hidden cursor-pointer">
         <Image
           src={burgerMenu}
           width={100}
@@ -31,7 +31,7 @@ const MobileNav = () => {
           <SheetTitle className="hidden">Are you absolutely sure?</SheetTitle>
           <div className="mt-8">
             <SheetDescription className="flex flex-col gap-3 sm:gap-5">
-              <MobileNavItem href="#about">About</MobileNavItem>
+              <MobileNavItem href="/">About</MobileNavItem>
               <MobileNavItem href="#features">Features</MobileNavItem>
               <MobileNavItem href="#pricing">Pricing</MobileNavItem>
               <MobileNavItem href="#testimonials">Testimonials</MobileNavItem>

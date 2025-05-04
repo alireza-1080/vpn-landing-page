@@ -31,7 +31,7 @@ const diamondTierOptions = [
 
 const Plans = () => {
   return (
-    <div className="flex flex-col items-center justify-center gap-5 lg:flex-row xl:gap-30 lg:items-start">
+    <div className="flex flex-col items-center justify-center gap-5 lg:flex-row lg:items-start xl:gap-30">
       <PlanItem title="Free" options={freeTierOptions} price={undefined}>
         <Image src={free} width={1000} height={1000} quality={100} alt="Free" />
       </PlanItem>
@@ -39,7 +39,13 @@ const Plans = () => {
         <Image src={gold} width={1000} height={1000} quality={100} alt="Gold" />
       </PlanItem>
       <PlanItem title="Diamond" price={12} options={diamondTierOptions}>
-        <Image src={diamond} width={1000} height={1000} quality={100} alt="Diamond" />
+        <Image
+          src={diamond}
+          width={1000}
+          height={1000}
+          quality={100}
+          alt="Diamond"
+        />
       </PlanItem>
     </div>
   );

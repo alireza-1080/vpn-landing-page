@@ -5,10 +5,12 @@ import DesktopNav from "./DesktopNav";
 
 const Header = () => {
   return (
-    <header className="container flex items-center justify-between p-5 fixed top-0 bg-white shadow-lg z-50 left-1/2 -translate-x-1/2">
-      <Logo />
-      <MobileNav />
-      <DesktopNav />
+    <header className="fixed top-0 left-1/2 z-50 w-full -translate-x-1/2 bg-white p-5 shadow-lg">
+      <div className="container mx-auto flex items-center justify-between">
+        <Logo />
+        <MobileNav />
+        <DesktopNav />
+      </div>
     </header>
   );
 };

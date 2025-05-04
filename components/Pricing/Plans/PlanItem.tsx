@@ -74,8 +74,8 @@ const PlanItem = ({
       </div>
       <div className="mt-5 flex w-full justify-center">
         <Button
-          variant={"outline"}
-          className="cursor-pointer border border-blue-500 px-10 text-blue-500 ring ring-blue-500 transition duration-300 hover:bg-blue-500 hover:text-white rounded-full"
+          variant={"default"}
+          className="w-full cursor-pointer rounded border border-blue-500 px-10 text-white ring ring-blue-500 transition duration-300 hover:bg-blue-700 hover:text-white"
         >
           Select
         </Button>

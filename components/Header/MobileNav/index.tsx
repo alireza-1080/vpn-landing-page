@@ -17,7 +17,7 @@ import { Button } from "@/components/ui/button";
 const MobileNav = () => {
   return (
     <Sheet>
-      <SheetTrigger className="lg:hidden cursor-pointer">
+      <SheetTrigger className="cursor-pointer lg:hidden">
         <Image
           src={burgerMenu}
           width={100}

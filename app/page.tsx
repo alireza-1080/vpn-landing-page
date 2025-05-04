@@ -1,7 +1,7 @@
-import Features from "@/components/Features"
-import Hero from "@/components/Hero"
-import Pricing from "@/components/Pricing"
-import Stats from "@/components/Stats"
+import Features from "@/components/Features";
+import Hero from "@/components/Hero";
+import Pricing from "@/components/Pricing";
+import Stats from "@/components/Stats";
 
 const HomePage = () => {
   return (
@@ -11,7 +11,7 @@ const HomePage = () => {
       <Features />
       <Pricing />
     </>
-  )
-}
+  );
+};
 
-export default HomePage
+export default HomePage;

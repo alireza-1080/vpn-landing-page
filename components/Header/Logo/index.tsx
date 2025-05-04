@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Logo = () => {
   return (
-    <Link href={'/'} className="flex items-center lg:grow-[1] gap-2">
+    <Link href={"/"} className="flex items-center gap-2 lg:grow-[1]">
       <Image
         src={logo}
         alt="logo"
@@ -13,8 +13,8 @@ const Logo = () => {
         height={100}
         className="size-10 lg:size-16"
       />
-      <span className="text-gray-900 font-semibold text-xl">
-        Safe<span className="text-blue-500 font-bold">VPN</span>
+      <span className="text-xl font-semibold text-gray-900">
+        Safe<span className="font-bold text-blue-500">VPN</span>
       </span>
     </Link>
   );

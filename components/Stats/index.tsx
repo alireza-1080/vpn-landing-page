@@ -8,7 +8,7 @@ import Divider from "./Divider";
 const Stats = () => {
   return (
     <div className="hidden w-full items-center justify-center lg:flex">
-      <div className="flex w-full max-w-[800px] xl:max-w-[1000px] 2xl:max-w-[1250px] justify-around rounded-2xl py-5 shadow bg-gray-50">
+      <div className="flex w-full max-w-[800px] justify-around rounded-2xl bg-gray-50 py-5 shadow xl:max-w-[1000px] 2xl:max-w-[1250px]">
         <StatItem stat="90M+" title="Users" key="stat-users">
           <FaUser />
         </StatItem>

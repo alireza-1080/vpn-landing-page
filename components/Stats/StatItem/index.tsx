@@ -11,10 +11,14 @@ const StatItem = ({
 }) => {
   return (
     <div className="flex items-center gap-5">
-      <div className="text-blue-500 p-8 bg-blue-100 rounded-full text-3xl">{children}</div>
+      <div className="rounded-full bg-blue-100 p-8 text-3xl text-blue-500">
+        {children}
+      </div>
       <div className="flex flex-col items-center">
         <h3 className="text-xl font-semibold">{stat}</h3>
-        <h2 className="first-letter:text-blue-500 text-xl font-semibold">{title}</h2>
+        <h2 className="text-xl font-semibold first-letter:text-blue-500">
+          {title}
+        </h2>
       </div>
     </div>
   );

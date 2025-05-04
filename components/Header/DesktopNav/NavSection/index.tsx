@@ -3,7 +3,7 @@ import DesktopNavItem from "./DesktopNavItem";
 
 const NavSection = () => {
   return (
-    <nav className="flex grow items-center justify-center pr- xl:pr-10 2xl:pr-16 gap-3 xl:gap-5">
+    <nav className="pr- flex grow items-center justify-center gap-3 xl:gap-5 xl:pr-10 2xl:pr-16">
       <DesktopNavItem href="/">About</DesktopNavItem>
       <DesktopNavItem href="#features">Features</DesktopNavItem>
       <DesktopNavItem href="#pricing">Pricing</DesktopNavItem>

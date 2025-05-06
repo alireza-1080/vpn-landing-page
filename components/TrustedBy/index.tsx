@@ -10,12 +10,12 @@ import Image from "next/image";
 
 const TrustedBy = () => {
   const companies = [
-    { name: "Discord", img: discord },
     { name: "Spotify", img: spotify },
-    { name: "Amazon", img: amazon },
+    { name: "Discord", img: discord },
     { name: "Shopify", img: shopify },
-    { name: "Nvidia", img: nvidia },
+    { name: "Amazon", img: amazon },
     { name: "Starbucks", img: starbucks },
+    { name: "Nvidia", img: nvidia },
   ];
 
   return (

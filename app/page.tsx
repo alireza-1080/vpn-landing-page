@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import Locations from "@/components/Locations/page";
 import Pricing from "@/components/Pricing";
 import Stats from "@/components/Stats";
+import TrustedBy from "@/components/TrustedBy";
 
 const HomePage = () => {
   return (
@@ -12,6 +13,7 @@ const HomePage = () => {
       <Features />
       <Pricing />
       <Locations />
+      <TrustedBy />
     </>
   );
 };

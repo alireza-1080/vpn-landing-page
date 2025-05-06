@@ -34,8 +34,8 @@ const MobileNav = () => {
               <MobileNavItem href="/">About</MobileNavItem>
               <MobileNavItem href="#features">Features</MobileNavItem>
               <MobileNavItem href="#pricing">Pricing</MobileNavItem>
-              <MobileNavItem href="#testimonials">Testimonials</MobileNavItem>
-              <MobileNavItem href="#help">Help</MobileNavItem>
+              <MobileNavItem href="#servers">Servers</MobileNavItem>
+              <MobileNavItem href="#subscribe">Subscribe</MobileNavItem>
             </SheetDescription>
           </div>
         </SheetHeader>

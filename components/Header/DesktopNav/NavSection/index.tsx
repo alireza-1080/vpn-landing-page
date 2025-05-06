@@ -7,8 +7,8 @@ const NavSection = () => {
       <DesktopNavItem href="/">About</DesktopNavItem>
       <DesktopNavItem href="#features">Features</DesktopNavItem>
       <DesktopNavItem href="#pricing">Pricing</DesktopNavItem>
-      <DesktopNavItem href="#testimonials">Testimonials</DesktopNavItem>
-      <DesktopNavItem href="#help">Help</DesktopNavItem>
+      <DesktopNavItem href="#servers">Servers</DesktopNavItem>
+      <DesktopNavItem href="#subscribe">Subscribe</DesktopNavItem>
     </nav>
   );
 };

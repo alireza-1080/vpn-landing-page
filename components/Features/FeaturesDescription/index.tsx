@@ -4,7 +4,7 @@ import FeatureItem from "./FeatureItem";
 const FeaturesDescription = () => {
   return (
     <div className="my-6 flex flex-col justify-center gap-10 lg:my-0 2xl:gap-14">
-      <h2 className="flex justify-center gap-1.5 text-2xl font-semibold md:text-3xl">
+      <h2 className="flex justify-center gap-1.5 text-center text-2xl font-semibold sm:text-4xl xl:text-5xl">
         Why choose{" "}
         <span className="font-bold">
           Safe<span className="text-blue-500">VPN</span>

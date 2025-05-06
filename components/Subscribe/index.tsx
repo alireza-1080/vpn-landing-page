@@ -4,7 +4,7 @@ import discount from "@/public/pngs/discount.png";
 
 const Subscribe = () => {
   return (
-    <div className="w-full bg-gray-300">
+    <div className="w-full bg-gray-100">
       <div
         id="subscribe"
         className="container mx-auto mt-15 flex flex-col gap-15 px-5 py-15 lg:flex-row lg:items-center"
@@ -17,7 +17,7 @@ const Subscribe = () => {
             alt="discount"
             className="w-full max-w-25 lg:max-w-32 lg:flex-1/3"
           />
-          <h3 className="text-center text-2xl leading-relaxed font-semibold text-shadow-blue-500 sm:text-4xl lg:text-5xl lg:flex-2/3 justify-center">
+          <h3 className="justify-center text-center text-2xl leading-relaxed font-semibold text-shadow-blue-500 sm:text-4xl lg:flex-2/3 lg:text-5xl">
             Subscribe and save <br />{" "}
             <span className="font-semibold text-blue-500">20%</span>{" "}
             <span className="font-semibold">today!</span>

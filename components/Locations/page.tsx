@@ -8,7 +8,7 @@ const Locations = () => {
       <h3 className="text-center text-2xl font-semibold sm:text-4xl lg:text-5xl">
         Huge Global Network of Fast VPN
       </h3>
-      <div className="h-fit w-full">
+      <div className="h-fit w-full max-w-7xl">
         <Image
           src={worldMap}
           width={2000}

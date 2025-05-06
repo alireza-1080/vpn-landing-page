@@ -3,7 +3,7 @@ import Plans from "./Plans";
 
 const Pricing = () => {
   return (
-    <div className="w-full bg-gray-100">
+    <div className="w-full bg-gray-300">
       <div
         id="pricing"
         className="flex w-full flex-col justify-center gap-15 px-5 py-10"

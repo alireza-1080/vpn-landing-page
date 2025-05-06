@@ -20,7 +20,7 @@ const PlanItem = ({
   price: number | undefined;
 }) => {
   return (
-    <div className="relative flex max-w-80 flex-col justify-center rounded-2xl border-[3px] border-blue-500 px-5 py-5 transition duration-300 hover:border-blue-500 sm:w-96 lg:border-blue-200">
+    <div className="relative flex max-w-80 flex-col justify-center rounded-2xl border-[3px] border-blue-500 px-5 py-5 transition duration-300 sm:w-96 hover:-translate-y-5 bg-white">
       <div className="mx-auto flex w-3/5 justify-center">{children}</div>
       <div className="mt-3 flex w-full justify-center">
         <h4 className="text-2xl font-semibold">{title}</h4>

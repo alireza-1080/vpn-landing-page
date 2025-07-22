@@ -48,34 +48,21 @@ const MobileNav = () => {
           <div className="mt-8">
             <SheetDescription className="flex flex-col gap-3 sm:gap-5">
               <MobileNavItem
-                href="/#about"
                 onClick={() => handleLinkClick("#about")}
                 data-testid="about-mobile-nav-item"
               >
                 About
               </MobileNavItem>
-              <MobileNavItem
-                href="#features"
-                onClick={() => handleLinkClick("#features")}
-              >
+              <MobileNavItem onClick={() => handleLinkClick("#features")}>
                 Features
               </MobileNavItem>
-              <MobileNavItem
-                href="#pricing"
-                onClick={() => handleLinkClick("#pricing")}
-              >
+              <MobileNavItem onClick={() => handleLinkClick("#pricing")}>
                 Pricing
               </MobileNavItem>
-              <MobileNavItem
-                href="#servers"
-                onClick={() => handleLinkClick("#servers")}
-              >
+              <MobileNavItem onClick={() => handleLinkClick("#servers")}>
                 Servers
               </MobileNavItem>
-              <MobileNavItem
-                href="#subscribe"
-                onClick={() => handleLinkClick("#subscribe")}
-              >
+              <MobileNavItem onClick={() => handleLinkClick("#subscribe")}>
                 Subscribe
               </MobileNavItem>
             </SheetDescription>

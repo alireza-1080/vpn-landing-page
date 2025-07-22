@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Logo = () => {
   return (
-    <Link href={"/"} className="flex items-center gap-2 lg:grow-[1]">
+    <Link href={"/#about"} className="flex items-center gap-2 lg:grow-[1]">
       <Image
         src={logo}
         alt="logo"

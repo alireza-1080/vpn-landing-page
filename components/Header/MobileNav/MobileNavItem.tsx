@@ -2,12 +2,10 @@ import React, { ReactNode } from "react";
 
 const MobileNavItem = ({
   children,
-  href,
   onClick,
   "data-testid": dataTestId,
 }: {
   children: ReactNode;
-  href: string;
   onClick: () => void;
   "data-testid"?: string;
 }) => {

@@ -8,7 +8,7 @@ import TrustedBy from "@/components/TrustedBy";
 
 const HomePage = () => {
   return (
-    <>
+    <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <Hero />
       <Stats />
       <Features />
@@ -16,7 +16,7 @@ const HomePage = () => {
       <Locations />
       <TrustedBy />
       <Subscribe />
-    </>
+    </div>
   );
 };
 

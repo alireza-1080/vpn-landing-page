@@ -4,11 +4,8 @@ import discount from "@/public/pngs/discount.png";
 
 const Subscribe = () => {
   return (
-    <div className="w-full bg-gray-100">
-      <div
-        id="subscribe"
-        className="container mx-auto mt-15 flex flex-col gap-15 px-5 py-15 lg:flex-row lg:items-center"
-      >
+    <section id="subscribe" className="w-full scroll-mt-20 bg-gray-100">
+      <div className="container mx-auto mt-15 flex flex-col gap-15 px-5 py-15 lg:flex-row lg:items-center">
         <div className="flex flex-3/4 flex-col items-center gap-10 lg:flex-row">
           <Image
             src={discount}
@@ -29,7 +26,7 @@ const Subscribe = () => {
           </button>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

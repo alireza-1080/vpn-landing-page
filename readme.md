@@ -2,6 +2,7 @@ VPN Landing Page
 This is a responsive landing page for a fictional VPN service called "SafeVPN". The project is built with Next.js and TypeScript, and it is styled with Tailwind CSS.
 
 ✨ Features
+
 Modern UI: Clean and modern design.
 
 Responsive: Looks great on all devices, from mobile phones to desktop computers.
@@ -11,6 +12,7 @@ Component-Based: Built with reusable React components.
 Sections: Includes Hero, Features, Pricing, Locations, and more.
 
 🛠️ Stack
+
 Framework: Next.js
 
 Language: TypeScript
@@ -22,6 +24,7 @@ UI Components: Radix UI
 Icons: Lucide React
 
 🚀 Getting Started
+
 Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
 
 Prerequisites
